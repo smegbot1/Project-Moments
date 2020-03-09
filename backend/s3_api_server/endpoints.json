@@ -1,0 +1,3 @@
+{
+  "Endpoints": "/api/upload accepts a POST request with images on the body and will place them into the s3 bucket"
+}
