@@ -1,0 +1,50 @@
+{
+  "GET /api": {
+    "description": "serves up a json representation of all the available endpoints of the api"
+  },
+  "GET /api/images/:usr": {
+    "description": "serves an array of all images for that user",
+    "exampleResponse": {
+      "images": [
+        "https://moments-nc.s3.eu-west-2.amazonaws.com/image-1582817965000.jpeg",
+        "https://moments-nc.s3.amazonaws.com/image-1582815613919.jpeg"
+      ]
+    }
+  },
+  "POST (actually a delete) /api/images/:usr": {
+    "description": "Removes the user from database and serves a status code of 200",
+    "request body example": {
+      "url": "https://moments-nc.s3.eu-west-2.amazonaws.com/image-1582817965000.jpeg"
+    },
+    "exampleResponse": { "msg": ":usr account created in DB" }
+  },
+  "POST api/upload": {
+    "description": "serves an object with location of uploaded file and success message",
+    "request body example": {
+      "usr": "Andy",
+      "url": "https://moments-nc.s3.eu-west-2.amazonaws.com/image-1582815613919.jpeg"
+    },
+    "exampleResponse": {
+      "location": "https://moments-nc.s3.eu-west-2.amazonaws.com/image-1582815613919.jpeg",
+      "msg": "success DB update"
+    }
+  },
+  "POST api/createuser": {
+    "description": "creates a new user item in the database",
+    "request body example": {
+      "usr": "newUsr"
+    },
+    "exampleResponse": {
+      "msg": "newUsr account created in DB"
+    }
+  },
+  "PATCH /api/activeuser": {
+    "description": "sets the active user in the database",
+    "request body example": {
+      "usr": "currentUsr"
+    },
+    "exampleResponse": {
+      "msg": "Active user changed"
+    }
+  }
+}

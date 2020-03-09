@@ -1,0 +1,24 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": ["react-app", "prettier"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "no-var": 2,
+    "prefer-const": [
+      "error",
+      {
+        "destructuring": "any",
+        "ignoreReadBeforeAssign": false
+      }
+    ]
+  }
+}

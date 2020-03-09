@@ -1,0 +1,20 @@
+{
+    "mobile": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-moments-frontend-mobile-150423-authRole",
+            "UnauthRoleArn": "arn:aws:iam::403612762297:role/amplify-moments-frontend-mobile-150423-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::403612762297:role/amplify-moments-frontend-mobile-150423-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "amplify-moments-frontend-mobile-150423-deployment",
+            "UnauthRoleName": "amplify-moments-frontend-mobile-150423-unauthRole",
+            "StackName": "amplify-moments-frontend-mobile-150423",
+            "StackId": "arn:aws:cloudformation:eu-west-2:403612762297:stack/amplify-moments-frontend-mobile-150423/4798b950-58a9-11ea-a444-029d9e7b7264",
+            "AmplifyAppId": "d3ck9sscl5e3k2"
+        },
+        "categories": {
+            "auth": {
+                "momentsfrontende3757601": {}
+            }
+        }
+    }
+}

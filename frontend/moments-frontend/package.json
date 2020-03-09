@@ -1,0 +1,55 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "~10.0.0",
+    "@react-native-community/masked-view": "0.1.5",
+    "@react-navigation/bottom-tabs": "^5.0.0",
+    "@react-navigation/native": "^5.0.0",
+    "@react-navigation/stack": "^5.0.0",
+    "@react-navigation/web": "~1.0.0-alpha.9",
+    "apsl-react-native-button": "^3.1.1",
+    "aws-amplify": "^2.2.5",
+    "aws-amplify-react-native": "^3.2.2",
+    "aws-cli": "0.0.2",
+    "axios": "^0.19.2",
+    "expo": "~36.0.0",
+    "expo-asset": "~8.0.0",
+    "expo-constants": "^8.0.0",
+    "expo-font": "~8.0.0",
+    "expo-image-picker": "^8.0.2",
+    "expo-permissions": "^8.0.0",
+    "expo-web-browser": "~8.0.0",
+    "lottie-react-native": "^3.3.2",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+    "react-native-animated-loader": "0.0.8",
+    "react-native-app-intro-slider": "^3.0.0",
+    "react-native-gesture-handler": "~1.5.0",
+    "react-native-git-upgrade": "^0.2.7",
+    "react-native-safe-area-context": "0.6.0",
+    "react-native-screens": "2.0.0-alpha.12",
+    "react-native-sweet-alert": "^2.1.0",
+    "react-native-web": "~0.11.7",
+    "react-native-webview": "^8.1.2",
+    "sweetalert": "^2.1.2",
+    "webpack": "^4.39.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "babel-preset-expo": "~8.0.0",
+    "jest-expo": "~36.0.1"
+  },
+  "private": true
+}
