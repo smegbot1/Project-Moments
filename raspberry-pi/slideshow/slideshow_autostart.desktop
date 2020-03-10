@@ -1,0 +1,11 @@
+[Desktop Entry]
+
+Type = Application
+
+Name=Slideshow Image Changer
+
+Comment=Slideshow Image Changer
+
+Exec=/home/pi/moments/main.py 
+
+Terminal=true
